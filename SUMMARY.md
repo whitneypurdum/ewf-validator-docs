@@ -10,6 +10,7 @@
   * [Host Machine Requirements](guides/installing-a-validator-node/host-machine-requirements.md)
   * [Recommended Security Settings](guides/installing-a-validator-node/recommended-security-settings.md)
   * [Operating System Requirements](guides/installing-a-validator-node/operating-system-requirements.md)
+  * [Validator Node Installation Instructions](guides/installing-a-validator-node/validator-node-installation-instructions.md)
 * [Maintaining a Validator Node](guides/maintaining-a-validator-node/README.md)
   * [Validator Node Architecture](guides/maintaining-a-validator-node/validator-node-architecture.md)
   * [Validator Node Service Commands](guides/maintaining-a-validator-node/validator-node-service-commands.md)
