@@ -19,6 +19,7 @@
   * [Checking node status & logs](guides/maintaining-a-validator-node/checking-node-status-and-logs.md)
   * [Migrating a validator node to a new environment](guides/maintaining-a-validator-node/migrating-a-validator-node-to-a-new-environment.md)
   * [How To Transfer EWT from a Validator Node](guides/maintaining-a-validator-node/how-to-transfer-ewt-from-a-validator-node.md)
+  * [Problems connecting to peers](guides/maintaining-a-validator-node/problems-connecting-to-peers.md)
 
 ***
 
