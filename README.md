@@ -6,3 +6,11 @@ Welcome to the homepage for Energy Web Chain validator technical documentation! 
 * [Maintaining a validator node](guides/maintaining-a-validator-node/): Here you will find step-by-step instructions for a variety of operational and maintenance tasks.&#x20;
 
 If you need further information or troubleshooting assistance, please use the dedicated [Validator Knowledge Base](https://discuss.energyweb.org/c/knowledge-base/15).&#x20;
+
+{% hint style="info" %}
+**Note:** Validators can[^1] opt to outsource their node installation and operation to third-party service providers.&#x20;
+{% endhint %}
+
+
+
+[^1]: 

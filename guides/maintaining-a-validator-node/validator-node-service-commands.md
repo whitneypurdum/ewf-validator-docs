@@ -10,14 +10,16 @@ Always make sure that you have admin rights before running any command with sudo
 
 Run this command to see the status of all containers:
 
-| <pre><code>docker ps -a</code></pre> |
-| ------------------------------------ |
+| <pre><code>docker ps -a
+</code></pre> |
+| ------------------------------------- |
 
 ### Restart the whole stack <a href="#validatorservicecommands-restartthewholestack" id="validatorservicecommands-restartthewholestack"></a>
 
 | <pre><code>cd docker-stack
-docker-compose restart</code></pre> |
-| -------------------------------------------------------------- |
+docker-compose restart
+</code></pre> |
+| --------------------------------------------------------------- |
 
 ### Restarting after encountering problems <a href="#validatorservicecommands-restartingafterencounteringproblems" id="validatorservicecommands-restartingafterencounteringproblems"></a>
 
@@ -25,16 +27,18 @@ After encountering problems e.g. with the parity client, it is better to run
 
 | <pre><code>cd docker-stack
 docker-compose down
-docker-compose up -d</code></pre> |
-| -------------------------------------------------------------------------------- |
+docker-compose up -d
+</code></pre> |
+| --------------------------------------------------------------------------------- |
 
 If after restarting the client you are still encountering problems, you can try to delete the database and re-sync the node (please only do this after trying to restart without deleting the database first; if you have any questions or need assistance please post in the [Validator Knowledge Base](https://discuss.energyweb.org/c/knowledge-base/15)):
 
 | <pre><code>cd docker-stack
 docker-compose down
 rm -r chain-data/chains/Volta/db
-docker-compose up -d</code></pre> |
-| ----------------------------------------------------------------------------------------------------------------- |
+docker-compose up -d
+</code></pre> |
+| ------------------------------------------------------------------------------------------------------------------ |
 
 ### Update a component <a href="#validatorservicecommands-updateacomponent" id="validatorservicecommands-updateacomponent"></a>
 
@@ -67,5 +71,6 @@ In `docker-stack` run
 
 to e.g. show the last 100 lines of the parity client logs run
 
-| <pre><code>docker-compose logs -f --tail 100 parity</code></pre> |
-| ---------------------------------------------------------------- |
+| <pre><code>docker-compose logs -f --tail 100 parity
+</code></pre> |
+| ----------------------------------------------------------------- |

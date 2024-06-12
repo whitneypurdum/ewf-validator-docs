@@ -7,6 +7,12 @@ description: >-
 # Installing a Validator Node
 
 {% hint style="info" %}
+**Note:** Validators who opt to install and run their nodes externally can consider Zeeve's Validator-as-a-Service (VaaS).
+
+If so, validators meeting the [eligibility requirements](https://energy-web-foundation.gitbook.io/energy-web/ew-dos-technology-components-2023/trust-layer-energy-web-chain/energy-web-chain-governance#ewc-validator-eligibility) should follow [Zeeve's EWC Validator Node User Manual](https://zeeve.gitbook.io/ewc-validator-node-user-manual).&#x20;
+{% endhint %}
+
+{% hint style="info" %}
 Be sure to follow the below steps in order!&#x20;
 {% endhint %}
 
@@ -46,7 +52,7 @@ Be sure to follow the below steps in order!&#x20;
     * If you would like to hold block rewards in an address separate from the validator node, you can change the block reward payout address. Please see [instructions for calling the _setPayoutAddress_ function in the Reward Contract for further](https://energyweb.atlassian.net/wiki/spaces/EWF/pages/701923337/Reward+contract) details. _Please note that it is not possible to reallocate transaction fees to a separate account, so all validator nodes will accrue and maintain a balance of EWT from transaction fees._
 11. _**Once all of the above steps are completed, install your validator node following the instructions**_ [_**here**_](validator-node-installation-instructions.md)_**.**_&#x20;
 
-##
+
 
 ##
 
