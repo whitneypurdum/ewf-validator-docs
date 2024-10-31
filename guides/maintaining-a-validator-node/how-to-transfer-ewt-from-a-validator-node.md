@@ -79,7 +79,7 @@ Successful transaction!
 }
 ```
 
-``
+
 
 ### _**Check in the Explorer**_
 
@@ -145,7 +145,7 @@ Change of payout address successful!
 }
 ```
 
-``
+
 
 ## Run Validator Tool using npm package <a href="#run-validator-tool-using-npm-package" id="run-validator-tool-using-npm-package"></a>
 

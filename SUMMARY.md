@@ -6,6 +6,7 @@
 
 ## Guides
 
+* [Set-up your Validator node in minutes with EW Launchpad](guides/set-up-your-validator-node-in-minutes-with-ew-launchpad.md)
 * [Installing a Validator Node](guides/installing-a-validator-node/README.md)
   * [Host Machine Requirements](guides/installing-a-validator-node/host-machine-requirements.md)
   * [Recommended Security Settings](guides/installing-a-validator-node/recommended-security-settings.md)
@@ -20,7 +21,6 @@
   * [Migrating a validator node to a new environment](guides/maintaining-a-validator-node/migrating-a-validator-node-to-a-new-environment.md)
   * [How To Transfer EWT from a Validator Node](guides/maintaining-a-validator-node/how-to-transfer-ewt-from-a-validator-node.md)
   * [Problems connecting to peers](guides/maintaining-a-validator-node/problems-connecting-to-peers.md)
-* [Validator node set-up with EW Launchpad](guides/validator-node-set-up-with-ew-launchpad.md)
 
 ***
 

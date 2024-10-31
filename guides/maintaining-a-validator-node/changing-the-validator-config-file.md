@@ -5,8 +5,9 @@ To change parameters of the validator client you have to change the config file 
 In the host, make sure you have root access and go into the config folder
 
 | <pre><code>sudo -s 
-cd docker-stack/config</code></pre> |
-| ------------------------------------------------------- |
+cd docker-stack/config
+</code></pre> |
+| -------------------------------------------------------- |
 
 Now you can edit the parity-signing.toml file that should look similar to this:
 
@@ -108,7 +109,8 @@ You can read about all possible configurations here: [https://openethereum.githu
 
 To restart the validator node, run
 
-| <pre><code>docker-compose restart parity</code></pre> |
-| ----------------------------------------------------- |
+| <pre><code>docker-compose restart parity
+</code></pre> |
+| ------------------------------------------------------ |
 
 The parity client should now be running with the new configurations.

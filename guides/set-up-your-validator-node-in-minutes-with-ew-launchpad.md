@@ -1,4 +1,4 @@
-# Validator node set-up with EW Launchpad
+# Set-up your Validator node in minutes with EW Launchpad
 
 Validators who opt to install and run their nodes externally can use [**Launchpad by Energy Web**](https://launchpad.energyweb.org/login) to install and host their Validator Nodes. This presents major advantages as the platform will fully support your node and handle the technical requirements. Additionally, spinning up your nodes using Launchpad is a lot quicker and does not require a high technical proficiency.
 
