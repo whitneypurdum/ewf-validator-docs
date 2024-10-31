@@ -20,6 +20,7 @@
   * [Migrating a validator node to a new environment](guides/maintaining-a-validator-node/migrating-a-validator-node-to-a-new-environment.md)
   * [How To Transfer EWT from a Validator Node](guides/maintaining-a-validator-node/how-to-transfer-ewt-from-a-validator-node.md)
   * [Problems connecting to peers](guides/maintaining-a-validator-node/problems-connecting-to-peers.md)
+* [Validator node set-up with EW Launchpad](guides/validator-node-set-up-with-ew-launchpad.md)
 
 ***
 
