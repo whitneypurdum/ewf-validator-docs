@@ -6,14 +6,26 @@ description: >-
 
 # Validator Node Installation Instructions
 
+
+
 {% hint style="info" %}
 **Good to know: The overall process of installing a validator node is identical on both the Volta test network and the main Energy Web Chain. The only difference is the installation script used in Step 2 -  be sure that you use the correct installation script for the intended network!**&#x20;
 {% endhint %}
 
-1. Install the operating system and prepare the host machine according to the requirements (Step 1 in the Checklist above).&#x20;
+{% hint style="warning" %}
+We recommend using the Nethermind Validator Installation Script, as the OpenEthereum Client is no longer in development and has been deprecated. You can find the validator installation scripts here:
+
+1. Volta:[https://github.com/energywebfoundation/ewc-validator-node-install-scripts/tree/master/volta-affiliate/nethermind](https://github.com/energywebfoundation/ewc-validator-node-install-scripts/tree/master/volta-affiliate/nethermind)
+2. EWC:\
+   [https://github.com/energywebfoundation/ewc-validator-node-install-scripts/tree/master/ewc-affiliate/nethermind](https://github.com/energywebfoundation/ewc-validator-node-install-scripts/tree/master/ewc-affiliate/nethermind)
+{% endhint %}
+
+
+
+1. Install the operating system and prepare the host machine according to the requirements (Step 1 in the previous checklist).&#x20;
 2. Select the correct Client installation script matching the desired network and installed OS on the energyweb github:
-   * For the VOLTA TEST NETWORK:  [https://github.com/energywebfoundation/ewc-validator-node-install-scripts/tree/master/volta-affiliate](https://github.com/energywebfoundation/ewc-validator-node-install-scripts/tree/master/volta-affiliate), or copy the desired client directory (OpenEthereum or Nethermind) from the **volta-affiliate** directory to the host
-   * For the main **ENERGY WEB CHAIN**: [https://github.com/energywebfoundation/ewc-validator-node-install-scripts/tree/master/ewc-affiliate](https://github.com/energywebfoundation/ewc-validator-node-install-scripts/tree/master/ewc-affiliate), or copy the desired client directory (OpenEthereum or Nethermind) from the **ewc-affiliate** directory to the host
+   * For the VOLTA TEST NETWORK:  [https://github.com/energywebfoundation/ewc-validator-node-install-scripts/tree/master/volta-affiliate](https://github.com/energywebfoundation/ewc-validator-node-install-scripts/tree/master/volta-affiliate), or copy the recommended client directory ([Nethermind](https://github.com/energywebfoundation/ewc-validator-node-install-scripts/tree/master/volta-affiliate/nethermind)) from the **volta-affiliate** directory to the host
+   * For the main **ENERGY WEB CHAIN**: [https://github.com/energywebfoundation/ewc-validator-node-install-scripts/tree/master/ewc-affiliate](https://github.com/energywebfoundation/ewc-validator-node-install-scripts/tree/master/ewc-affiliate), or copy the recommended client directory ([Nethermind](https://github.com/energywebfoundation/ewc-validator-node-install-scripts/tree/master/ewc-affiliate/nethermind)) from the **ewc-affiliate** directory to the host
 3. Make sure the latest system updates are installed by running :
    *   For Debian and Ubuntu:
 
