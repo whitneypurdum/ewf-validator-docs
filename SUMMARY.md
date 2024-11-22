@@ -4,6 +4,15 @@
 
 * [EWC Validator Documentation Overview](README.md)
 
+## EWC Governance
+
+* [Governance process](ewc-governance/governance-process.md)
+* [Proof-of-Authority Consensus Mechanism](ewc-governance/proof-of-authority-consensus-mechanism.md)
+* [EWC Validator Node Operational Functions](ewc-governance/ewc-validator-node-operational-functions.md)
+* [EWC Validator Roles & Responsibilities](ewc-governance/ewc-validator-roles-and-responsibilities.md)
+* [Validators eligibility](ewc-governance/validators-eligibility.md)
+* [Validators code of conduct](ewc-governance/validators-code-of-conduct.md)
+
 ## Guides
 
 * [Set-up your Validator node in minutes with EW Launchpad](guides/set-up-your-validator-node-in-minutes-with-ew-launchpad.md)
